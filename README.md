@@ -1,4 +1,4 @@
-# Initial Stup and environment for ML Project
+# Initial Setup and environment for ML Project
 
 ## Setup python
 
@@ -12,24 +12,28 @@ https://www.python.org/downloads/
 
 2. Linux:
 
-    For linux download the tar.xz file
-    Go to Downlaods 
-    For this project Python-3.12.0.tar.xz is downloaded. You can download a specific version as per your system.
+    For linux download the tar.xz file.
 
-Open terminal and run the following command
+    Go to Downlaods. 
 
-1. Extract
-    tar -xf Python-3.12.0.tar.xz
+    For this project we are using Python-3.12.0.tar.xz. 
 
-2. Configure
-    cd Python-3.12.0
-    ./configure 
+    You can download a specific version as per your operating system.
 
-3. Install
-    sudo make install
+Open terminal and run the following command to install and verify
 
-4. Verify
-    python3 --version 
+1. To extract
+    ```tar -xf Python-3.12.0.tar.xz```
+
+2. To configure
+    ```cd Python-3.12.0```
+    ```./configure```
+
+3. To install
+    ```sudo make install```
+
+4. To verify
+    ```python3 --version``` 
 
 
 ## Setup conda
